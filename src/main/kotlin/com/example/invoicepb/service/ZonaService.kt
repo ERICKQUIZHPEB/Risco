@@ -15,9 +15,9 @@ class ZonaService {
     fun list():List<Zona>{
         return zonaRepository.findAll()
     }
-    fun findZonaById(id: Long?):List<Zona>{
-        return zonaRepository.findZona(id)
-    }
+    //fun findZonaById(id: Long?):List<Zona>{
+      //  return zonaRepository.findZona(id)
+    //}
 
     fun delate (id:Long?):Boolean?{
         zonaRepository.findById(id)?:

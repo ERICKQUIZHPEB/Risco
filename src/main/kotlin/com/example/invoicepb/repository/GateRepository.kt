@@ -10,6 +10,6 @@ import org.springframework.data.repository.query.Param
 @Repository
 interface GateRepository: JpaRepository<Gate, Long> {
     fun findById(id: Long?): Gate?
-    @Query(nativeQuery = true)
-    fun findGate(@Param("id") id:Long?):List<Gate>
+   // @Query(nativeQuery = true)
+    //fun findGate(@Param("id") id:Long?):List<Gate>
 }

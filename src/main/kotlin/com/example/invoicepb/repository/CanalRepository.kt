@@ -11,6 +11,6 @@ import org.springframework.data.repository.query.Param
 interface CanalRepository: JpaRepository<Canal, Long> {
     fun findById(id: Long?): Canal?
 
-    @Query(nativeQuery = true)
-    fun findZona(@Param("id") id:Long?):List<Canal>
+    //@Query(nativeQuery = true)
+    //fun findZona(@Param("id") id:Long?):List<Canal>
 }

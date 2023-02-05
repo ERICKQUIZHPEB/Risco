@@ -28,9 +28,9 @@ class CanalService {
     }
 
 
-    fun findZonaById(id: Long?):List<Canal>{
-        return canalRepository.findZona(id)
-    }
+   // fun findZonaById(id: Long?):List<Canal>{
+     //   return canalRepository.findZona(id)
+    //}
 
     fun delete (id:Long?):Boolean?{
         canalRepository.findById(id)?:

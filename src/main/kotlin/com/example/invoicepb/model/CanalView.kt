@@ -22,5 +22,5 @@ class CanalView {
     @Column(name="zona_id")
     var zoneId:Long?=null
 
-    var zone:String?=null
+    var zona:String?=null
 }

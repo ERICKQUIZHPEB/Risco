@@ -9,6 +9,6 @@ import org.springframework.data.repository.query.Param
 @Repository
 interface ZonaRepository: JpaRepository<Zona, Long> {
     fun findById(id: Long?): Zona?
-    @Query(nativeQuery = true)
-    fun findZona(@Param("id") id:Long?):List<Zona>
+   // @Query(nativeQuery = true)
+    //fun findZona(@Param("id") id:Long?):List<Zona>
 }
